@@ -1,0 +1,70 @@
+.nav-header {
+  box-shadow: 0px 10px 10px -15px #111;
+}
+.header-container {
+  height: 12vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 10px 10px -15px #111;
+}
+.logo-heading {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 35px;
+  color: #1f1f1f;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .logo-heading {
+    font-size: 25px;
+  }
+}
+.order-flex-container {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.order-text {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 18px;
+  color: #585555;
+  text-decoration: none;
+  margin-right: 10px;
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .order-text {
+    display: flex;
+  }
+}
+.cart-icon {
+  height: 30px;
+  width: 30px;
+}
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.count-box {
+  background-color: orange;
+  align-self: flex-end;
+  margin: 0;
+  height: 20px;
+  width: 20px;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.count {
+  font-size: 14px;
+  font-family: 'roboto';
+  color: #ffffff;
+  font-weight: bold;
+}

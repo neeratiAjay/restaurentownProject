@@ -1,0 +1,168 @@
+.dish-item-container {
+  border: 2px solid #eeeee4;
+  border-radius: 8px;
+  margin: 20px;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.flex-container {
+  display: flex;
+  align-items: center;
+}
+.dish-item-heading {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 14px;
+  color: #1f1f1f;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+@media screen and (min-width: 576px) {
+  .dish-item-heading {
+    font-size: 18px;
+  }
+}
+.title-flex-container {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+.margin-container{
+  margin-left:40px;
+  width:60%;
+}
+.green-box {
+  border: 2px solid green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  margin-top: 10px;
+  background-color: transparent;
+  margin-right:10px;
+}
+.green-dot {
+  border-radius: 50%;
+  color: green;
+  background-color: green;
+  border: none;
+  height: 12px;
+  width: 12px;
+  font-size: 10px;
+  font-weight: bold;
+}
+.red-box {
+  border: 2px solid #92282a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  margin-top: 10px;
+  background-color: transparent;
+  margin-right:10px;
+}
+.red-dot {
+  border-radius: 50%;
+  color: #92282a;
+  background-color: #92282a;
+  border: none;
+  height: 12px;
+  width: 12px;
+  font-size: 10px;
+  font-weight: bold;
+}
+.sar-value {
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 12px;
+  margin: 0;
+  padding-top: 4px;
+  color: #4e4e4c;
+}
+@media screen and (min-width: 576px) {
+  .sar-value {
+    font-size: 16px;
+  }
+}
+.description {
+  font-size: 12px;
+  font-family: 'roboto';
+  font-weight: 500;
+  color: #959594;
+}
+@media screen and (min-width: 576px) {
+  .description {
+    font-size: 15px;
+  }
+}
+.controller-container {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  background-color: green;
+  min-width: 150px;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 50px;
+  margin-bottom: 4px;
+}
+
+.button {
+  padding: 5px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.quantity {
+  margin: 0 10px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.not-availability-text {
+  font-weight: 500;
+  font-size: 18px;
+  margin: 5px 0;
+  color: red;
+}
+
+.addon-availability-text {
+  font-weight: 500;
+  font-size: 14px;
+  margin: 5px 0;
+  color: #734ff4;
+}
+.calaries-text {
+  font-family: 'roboto';
+  font-weight: 500;
+  font-size: 14px;
+  color: orange;
+  align-self: center;
+  margin-left: 4px;
+  margin-right: 10px;
+}
+
+.dish-image {
+  width: 80px;
+  margin-right: 5px;
+  height: 80px;
+  border-radius: 12px;
+  align-self: flex-start;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+@media screen and (min-width: 576px) {
+  .dish-image {
+    width: 150px;
+    height: 150px;
+  }
+}
